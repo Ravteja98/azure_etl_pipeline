@@ -1,0 +1,6 @@
+azure-storage-blob==12.19.1    # SDK to upload/download data to ADLS
+pyspark==3.5.0                # Spark transformations
+pandas==2.2.2                 # For local data manipulation / debugging
+requests                     # if you need to download data from web
+python-dotenv                # if you want to keep secrets / keys in .env file
+-e .
